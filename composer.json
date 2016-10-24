@@ -1,0 +1,23 @@
+{
+    "name": "visionappscz/loggly-integration-test-command-bundle",
+    "type": "symfony-bundle",
+    "description": "Loggly integration tester for symfony projects",
+    "keywords": [],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "VisionApps s.r.o.",
+            "homepage": "http://www.visionapps.cz"
+        }
+    ],
+    "require": {
+        "symfony/monolog-bundle": "^2.11"
+    },
+    "autoload": {
+        "psr-4": { "LogglyIntegrationTestCommandBundle\\": "" },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "minimum-stability": "stable"
+}
